@@ -1,0 +1,120 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity=sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <nav class="color">
+         <ul class="nav justify-content">
+            <a class="navbar-brand pt-0 pb-0" href="#">
+            <img src="images/fb.png" alt="fb_logo" class="space img-fluid">
+            </a>
+            <li class="search">
+               <form class="navbar-form" role="search">
+                  <div class="input-group">
+                     <input type="text" id="find_friends"class="form-control" placeholder="search" name="q">
+                     <div class="input-group-btn">
+                        <button class="btn btn-lg" type="search"><i class="fa fa-search"></i></button>
+                     </div>
+                  </div>
+               </form>
+            </li>
+            <li class="nav-item margin-left">
+               <a class="nav-link color-one " href="#" id="navbar_profile-pic">
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link active color-one " href="#" id="navbar_userName">
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link color-one" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link color-one" href="#">Find Friends</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link color-one pt-3 ml-5" href="#"><i class="fa fa-users" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link color-one pt-3" href="#"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link color-one pt-3" href="#"><i class="fa fa-globe" aria-hidden="true"></i>
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <section id="dataSection">
+         <div class="container">
+         <div class="row">
+            <div id="cover" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 coverHeight">
+               <div class="row">
+                  <div id="profilePhoto" class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2" style="margin:10em 0 1em 1em;"></div>
+               </div>
+            </div>
+         </div>
+         <div class="row p-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 userDetails">
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Name :
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="userName">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Quote : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="favouritrQuote">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Birthday : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="birthdate">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Email : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="email">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Friends Count : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="friends_count">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Gender : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="gender">
+                  </div>
+               </div>
+               <div class="row rowStyle">
+                  <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                     Hometown : 
+                  </div>
+                  <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-10" id="homeTown">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+   <!-- External Scripts -->
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="index.js"></script>
+</html>

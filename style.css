@@ -1,0 +1,70 @@
+body {
+   word-break: break-all;
+}
+
+.color {
+   background-color: #4267b2;
+   padding-bottom: 0vh;
+   padding-top: 1vh;
+}
+.navbar{
+   list-style-type: none;
+}
+
+.space {
+   height: 6vh;
+   margin-left: 2vw;
+   float: left;
+}
+
+.color-one {
+   color: white;
+   font-weight: 700;
+}
+
+.margin-left {
+   margin-left: 10vw;
+}
+
+#dataSection {
+   display: none;
+}
+
+.userDetails {
+   border: 2px solid #ddd;
+   border-radius: 0.5em;
+}
+
+.coverHeight {
+   height: 350px;
+   max-height: 600px;
+   overflow: hidden;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.userName {
+   font-size: 3vw;
+}
+
+#navbar_profile-pic {
+   padding-top: 0;
+   height: 60px;
+   width: 80px;
+}
+
+.profileHeight {
+   border: 0.5vw solid white;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px 1px silver;
+}
+
+.rowStyle {
+   border-bottom: 1px solid #ddd;
+   margin-top: 1em !important;
+}
+
+.rowStyle div {
+   padding: 1em;
+}
