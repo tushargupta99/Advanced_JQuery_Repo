@@ -7,9 +7,6 @@ body {
    padding-bottom: 0vh;
    padding-top: 1vh;
 }
-.navbar{
-   list-style-type: none;
-}
 
 .space {
    height: 6vh;
@@ -18,7 +15,15 @@ body {
 }
 
 .color-one {
-   color: white;
+   color: #000;
+   font-weight: 700;
+}
+.color-one:hover{
+   color:#000;
+}
+
+.fa, .fab, .fas {
+   color: #000;
    font-weight: 700;
 }
 
